@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(96, 96, 96);
+    overflow: auto;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+   
+}
+.header-menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.header-menu > img{
+    align-items: center;
+    margin-left: 10px;
+}
+.left{
+    
+width: 75%;
+height: 100%;
+display: flex;
+flex-direction: column;
+color: rgb(243, 243, 243);
+
+
+}
+.left .menu{
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+  font-weight: bold;
+ align-items: center;
+}
+.right{
+    width: 25%;
+    height: 600px;
+    background-color: orange;
+   
+}
+.description{
+  width: fit-content;
+  padding: 20px;
+    margin-top: 100px;
+    margin-left: 50px;
+    background-color: rgb(62, 62, 62);
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.description > div{
+    position: absolute;
+    width: 70px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 20px;
+    top: 4px;
+    left: 8px;
+    z-index: -1;
+}
+.motivation-text{
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 70px;
+    line-height: 1.5;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.description-website-text{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    /* font-size: 15px; */
+}
+.gym-details{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.gym-details > div{
+    display: flex;
+    flex-direction: column;
+}
+.gym-details > div > span:nth-of-type(1){
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+.gym-details > div > span:nth-of-type(2){
+   color: rgb(170, 170, 170)
+  }
