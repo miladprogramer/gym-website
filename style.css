@@ -23,10 +23,10 @@ body{
 }
 .header-menu > img{
     align-items: center;
-    margin-left: 10px;
+    
 }
 .left{
-    
+    margin-left: 50px;
 width: 75%;
 height: 100%;
 display: flex;
@@ -44,15 +44,65 @@ color: rgb(243, 243, 243);
 }
 .right{
     width: 25%;
-    height: 600px;
+    height: 700px;
     background-color: orange;
+    position: relative;
    
+}
+
+.right-side{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.right-side > button{
+    font-size: 15px;
+    padding: 10px;
+    width: 100px;
+background-color: white;
+color: black;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+}
+.right-side > img{
+    position: absolute;
+right: 90px;
+top: 120px;
+}
+.heart-rate{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(96, 96, 96);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    top: 90px;
+    right: 20px;
+}
+.heart-rate > img{
+    margin-bottom: 10px;
+}
+.heart-rate > span:nth-child(2){
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+    margin-bottom: 10px;
+}
+.heart-rate > span:nth-child(3){
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
 }
 .description{
   width: fit-content;
   padding: 20px;
     margin-top: 100px;
-    margin-left: 50px;
+  
     background-color: rgb(62, 62, 62);
     border-radius: 50px;
     position: relative;
@@ -71,7 +121,7 @@ color: rgb(243, 243, 243);
 }
 .motivation-text{
     margin-top: 70px;
-    margin-left: 50px;
+    
     font-size: 70px;
     line-height: 1.5;
     font-weight: bold;
@@ -79,7 +129,7 @@ color: rgb(243, 243, 243);
 }
 .description-website-text{
     margin-top: 30px;
-    margin-left: 50px;
+   
     font-weight: bold;
     letter-spacing: 1px;
     /* font-size: 15px; */
@@ -88,7 +138,7 @@ color: rgb(243, 243, 243);
     display: flex;
     gap: 30px;
     margin-top: 30px;
-    margin-left: 50px;
+    
 }
 .gym-details > div{
     display: flex;
@@ -97,8 +147,73 @@ color: rgb(243, 243, 243);
 .gym-details > div > span:nth-of-type(1){
   font-size: 30px;
   font-weight: bold;
+  text-align: center;
   
 }
 .gym-details > div > span:nth-of-type(2){
-   color: rgb(170, 170, 170)
+   color: rgb(170, 170, 170);
+   text-align: center;
   }
+ 
+  .btn-header{
+    display: flex;
+  gap: 30px;
+ 
+   margin-top: 30px;
+  }
+  .btn-header > button{
+    font-size: 15px;
+    padding: 6px;
+    width: 150px;
+    cursor: pointer;
+  }
+  .btn-header > button:nth-child(1){
+   background-color: orange;
+   color: white;
+   border: none;
+   font-weight: bold;
+  }
+  .btn-header > button:nth-child(2){
+    background: transparent;
+    color: white;
+    border: 2px solid orange;
+    font-weight: bold;
+   }
+   .calories{
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    /* flex-direction: column; */
+    background-color: rgb(121, 121, 121);
+    width: 250px;
+    height: 90px;
+    padding: 20px;
+    top: 570px;
+    right: 450px;
+    align-items: center;
+    justify-content: center;
+   }
+   /* .calories > span:nth-child(2){
+    color: rgb(170, 170, 170);
+    margin-bottom: 10px;
+   }
+   .calories > span:nth-child(3){
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+} */
+.calories-number{
+    display: flex;
+    flex-direction: column;
+}
+.calories-number > span:nth-child(1){
+    color: rgb(170, 170, 170);
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.calories-number > span:nth-child(2){
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+  
