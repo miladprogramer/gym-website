@@ -502,5 +502,25 @@ color:  #f48915;
     width: 150px;
 
  }
+ .footer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+  
+   
+ }
+ .footer > hr{
+    border: 1px solid white;
+ }
+ .footer > .social-icons{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+ }
+ .footer > img{
+  margin: 0 auto;
+  margin-top: 50px;
+ }
 
 
