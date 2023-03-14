@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(72, 72, 72) !important;
+    background-color: rgb(53, 53, 53) !important;
     overflow: auto;
 }
 
@@ -45,7 +45,7 @@ color: rgb(243, 243, 243);
 .right{
     width: 25%;
     height: 700px;
-    background-color: orange;
+    background-color: #f48915;
     position: relative;
    
 }
@@ -113,7 +113,7 @@ top: 120px;
     position: absolute;
     width: 70px;
     height: 50px;
-    background-color: orange;
+    background-color:  #f48915;
     border-radius: 20px;
     top: 4px;
     left: 8px;
@@ -168,7 +168,7 @@ top: 120px;
     cursor: pointer;
   }
   .btn-header > button:nth-child(1){
-   background-color: orange;
+   background-color:  #f48915;
    color: white;
    border: none;
    font-weight: bold;
@@ -176,7 +176,7 @@ top: 120px;
   .btn-header > button:nth-child(2){
     background: transparent;
     color: white;
-    border: 2px solid orange;
+    border: 2px solid  #f48915;
     font-weight: bold;
    }
    .calories{
@@ -260,7 +260,7 @@ margin-bottom: 15px;
     
 }
 .card-programs > .card-p:hover{
-    background-color: orange;
+    background-color:  #f48915;
     cursor: pointer;
 }
 .why-us{
@@ -299,7 +299,7 @@ margin-bottom: 15px;
     
 }
 .why-choose-us > span:nth-child(1){
-color: orange;
+color:  #f48915;
 }
 .why-choose-us > span:nth-child(3){
     color: white;
@@ -368,7 +368,7 @@ color: orange;
     border-radius: 5px;
   }
   .choose-plans > .card-plans:nth-child(2){
-    background-color: orange;
+    background-color:  #f48915;
     transform: scale(1.1);
   }
   .choose-plans > .card-plans > button{
@@ -404,7 +404,7 @@ color: orange;
     
   }
   .testimonials > div > div >span{
-    color: orange;
+    color:  #f48915;
   }
 .what-they-say {
     color: white;
@@ -424,7 +424,7 @@ color: orange;
    
   }
  .customer > span:nth-child(1){
-    color: orange;
+    color:  #f48915;
     letter-spacing: 2px;
  }
  .testimonials > div > div:nth-child(2){
@@ -440,7 +440,7 @@ color: orange;
     right: 160px;
     width: 250px;
     height: 250px;
-    border: 2px solid orange;
+    border: 2px solid  #f48915;
 
     z-index: -1;
  
@@ -452,7 +452,55 @@ color: orange;
     left: 30px;
     width: 250px;
     height: 250px;
-   background-color: orange;
+   background-color:  #f48915;
    z-index: -1;
  }
+ .arows{
+    position: absolute;
+    left: -70px;
+ }
+ .levelup-with-us{
+    margin-left: 40px;
+    margin-top: 80px;
+    overflow-x: hidden;
+    
+ }
+ .levelup-with-us > .row > div:nth-child(1){
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+ }
+ .input{
+    background-color: rgb(115, 115, 115);
+    padding: 15px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+ }
+ .input >button{
+    background-color:  #f48915;
+    color: white;
+    border: none;
+    padding: 6px;
+    width: 100px;
+    font-weight: bold;
+    margin-left: 30px;
+ }
+ .input >input{
+    background-color: rgb(115, 115, 115);
+    border: none;
+    outline: none;
+  width: 60%;
+ }
+ ::placeholder{
+    color: rgb(189, 189, 189);
+ }
+ .levelup-with-us > hr{
+    border: 2px solid  #f48915;
+    border-radius: 20%;
+    width: 150px;
+
+ }
+
 
